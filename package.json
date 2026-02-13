@@ -1,0 +1,16 @@
+{
+  "name": "@lxm/protocol-core",
+  "version": "1.0.0",
+  "description": "Deterministic state validation and artifact generation middleware engine.",
+  "main": "src/api/server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/api/server.js",
+    "test": "node tests/generator.test.js"
+  },
+  "author": "Derek Espinoza",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}

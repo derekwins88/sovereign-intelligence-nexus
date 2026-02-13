@@ -1,5 +1,9 @@
 # Sovereign Intelligence Nexus
 
+![CI](https://github.com/derekwins88/lxm-protocol-core/actions/workflows/ci.yml/badge.svg)
+![License](https://img.shields.io/badge/license-MIT-green)
+![Version](https://img.shields.io/badge/version-1.0.0-blue)
+
 **Cross-Domain Intelligence Architecture** | Entropy-Aware Monitoring & Validation
 
 ---
@@ -32,7 +36,7 @@ The Nexus comprises eight integrated subsystems:
 
 | Component | Role | Repository |
 |-----------|------|------------|
-| **lxm-protocol-core** | Deterministic Middleware | [→ View](https://github.com/derekwins88/lxm-protocol-core) |
+| **lxm-protocol-core** | Deterministic middleware ensuring deterministic execution consistency across distributed environments | [→ View](https://github.com/derekwins88/lxm-protocol-core) |
 | **Stallion Core** | Cross-domain validation engine | [→ View](https://github.com/derekwins88/stallion-core) |
 | **LUXEM Prediction Lab** | Entropy-based regime detection | [→ View](https://github.com/derekwins88/luxem-prediction-lab) |
 | **X-Stream Monitor** | Real-time drift detection for high-velocity streams | [→ View](https://github.com/derekwins88/x-stream-entropy-monitor) |
@@ -42,6 +46,17 @@ The Nexus comprises eight integrated subsystems:
 | **Sovereign Terminal** | Unified monitoring interface | [→ View](https://github.com/derekwins88/sovereign-terminal) |
 
 ---
+
+### System Flow
+
+```mermaid
+flowchart TD
+    A[Input Vector] --> B[Validation Layer]
+    B --> C[State Processor]
+    C --> D[Deterministic Engine]
+    D --> E[LXM Artifact ID]
+    E --> F[Integrity Signature]
+```
 
 ## Integration Flow
 ```
