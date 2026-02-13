@@ -28,10 +28,11 @@ This framework addresses that gap by:
 
 ### System Components
 
-The Nexus comprises seven integrated subsystems:
+The Nexus comprises eight integrated subsystems:
 
 | Component | Role | Repository |
 |-----------|------|------------|
+| **lxm-protocol-core** | Deterministic Middleware | [→ View](https://github.com/derekwins88/lxm-protocol-core) |
 | **Stallion Core** | Cross-domain validation engine | [→ View](https://github.com/derekwins88/stallion-core) |
 | **LUXEM Prediction Lab** | Entropy-based regime detection | [→ View](https://github.com/derekwins88/luxem-prediction-lab) |
 | **X-Stream Monitor** | Real-time drift detection for high-velocity streams | [→ View](https://github.com/derekwins88/x-stream-entropy-monitor) |
