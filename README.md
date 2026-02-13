@@ -1,5 +1,9 @@
 # Sovereign Intelligence Nexus
 
+![CI](https://github.com/derekwins88/lxm-protocol-core/actions/workflows/ci.yml/badge.svg)
+![License](https://img.shields.io/badge/license-MIT-green)
+![Version](https://img.shields.io/badge/version-1.0.0-blue)
+
 **Cross-Domain Intelligence Architecture** | Entropy-Aware Monitoring & Validation
 
 ---
@@ -9,6 +13,8 @@
 The Sovereign Intelligence Nexus is an integrated framework for building **confidence-aware autonomous systems** that monitor their own operational limits in real time.
 
 Rather than optimizing purely for task performance, this architecture treats **continuous self-monitoring** as a first-class concern — enabling systems to detect drift, identify regime transitions, and make intelligent decisions about when to act, escalate, or pause.
+
+Its protocol layer is designed for deterministic execution consistency across distributed environments.
 
 ---
 
@@ -25,6 +31,17 @@ This framework addresses that gap by:
 ---
 
 ## Architecture
+
+### System Flow
+
+```mermaid
+flowchart TD
+    A[Input Vector] --> B[Validation Layer]
+    B --> C[State Processor]
+    C --> D[Deterministic Engine]
+    D --> E[LXM Artifact ID]
+    E --> F[Integrity Signature]
+```
 
 ### System Components
 
